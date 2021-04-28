@@ -35,14 +35,7 @@
 	<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 </head>
 <body class="landing">
-	<div class="se-pre-con"></div>	
-	<script>
-		$(window).load(function () {
-				// Animate loader off screen
-				$(".se-pre-con").fadeOut("slow");;
-			});
-
-	</script>
+	
 	<!-- Header -->
 	<header id="header" class="alt skel-layers-fixed">
 		<nav id="nav">
@@ -58,7 +51,9 @@
 	<section id="banner">
 		<div class="inner">
 			<h2>Humans Of IIT Jammu</h2>
-			<p>Stories from and around IIT Jammu. Unfiltered.</p>			
+			<p>Stories from and around IIT Jammu. Unfiltered.</p>	
+			<h4>A NSS IIT Jammu Initiative</h4>
+					
 			<ul class="actions">
 				<li><a href="#one" class="button big scrolly">Learn More</a></li>
 			</ul>
@@ -168,7 +163,16 @@
 			&copy; 2021 Humans of IIT Jammu. All rights reserved.</a>
 		</span>
 	</footer>
+	<div class="loader-wrapper">
+		<span class="loader"><span class="loader-inner"></span></span>
+	</div>	
+	<script>
+		$(window).load(function () {
+				// Animate loader off screen
+				$(".loader-wrapper").fadeOut("slow");
+			});
 
+	</script>
 </body>
 
 </html>
