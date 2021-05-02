@@ -1386,7 +1386,7 @@ if it's not present, don't show loader */
 		}
 		body, html {
     height: 100%;
-    text-align: center;
+    text-align: justify;
 }
 
 body {
@@ -1463,3 +1463,21 @@ body {
     height: 0%;
   }
 }
+#loading {
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	position: absolute;
+	display: block;
+	opacity: 0.7;
+	background-color: #fff;
+	z-index: 99;
+	text-align: center;
+  }
+  
+  #loading-image {
+	position: absolute;
+	top: 100px;
+	left: 240px;
+	z-index: 100;
+  }
