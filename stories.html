@@ -41,7 +41,10 @@
 </head>
 
 <body>	
-	
+	<div id="loading">
+		<img id="loading-image" src="images/Preloader_11.gif" alt="Loading..." />
+	  </div>
+	  
 	<!-- Header -->
 	<header id="header" class="skel-layers-fixed">
 
@@ -294,6 +297,12 @@ When the country had gone in Lockdown, and there was a scarcity of food services
 			&copy; 2021 Humans of IIT Jammu. All rights reserved.</a>
 		</span>
 	</footer>
+	<script>
+		$(window).load(function() {
+		  $('#loading').hide();
+		});
+	  </script>
+	  
 </body>
 
 </html>

@@ -35,6 +35,9 @@
 	<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 </head>
 <body class="landing">
+	<div id="loading">
+		<img id="loading-image" src="images/Preloader_11.gif" alt="Loading..." />
+	</div>
 	<!-- Header -->
 	<header id="header" class="alt skel-layers-fixed">		
 		<nav id="nav">
@@ -165,9 +168,9 @@
 	
 	<script>
 		$(window).load(function() {
-		  $('#loading').fadeOut("slow");
+		  $('#loading').hide();
 		});
-	  </script> 
+	  </script>
 </body>
 
 </html>

@@ -6,7 +6,7 @@
 /* Paste this css to your style sheet file or under head tag */
 /* This only works with JavaScript, 
 if it's not present, don't show loader */
-.no-js #loader { display: none;  }
+/* .no-js #loader { display: none;  }
 .js #loader { display: block; position: absolute; left: 100px; top: 0; }
 .se-pre-con {
 	position: fixed;
@@ -16,7 +16,7 @@ if it's not present, don't show loader */
 	height: 100%;
 	z-index: 9999;
 	background: url(https://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif) center no-repeat #fff;
-}
+} */
 /* Basic */
 
 	body, input, select, textarea {
@@ -30,20 +30,14 @@ if it's not present, don't show loader */
 	}
 #loading {
 	width: 100%;
-	height: 100%;
-	align-items: center;
-	position: absolute;
-	display: block;
-	opacity: 0.7;
-	background-color: #fff;
-	z-index: 99;
-	text-align: center;
+	height: 100%;		
+	opacity: 1;
+	background-color: #fff;		
   }
   
-  #loading-image {
+#loading-image {
 	position: absolute;
-	top: 100px;
-	left: 240px;
-	z-index: 100;
+    top: 50%;
+    left: 50%;
   }
-  #loadOverlay{display: none;}
+#loadOverlay{display: none;}
